@@ -11,7 +11,7 @@
     "build:client": "vite build",
     "copy:generated": "node -e \"const { cpSync, existsSync } = require('node:fs'); if (existsSync('src/generated/prisma-client')) { cpSync('src/generated/prisma-client', 'dist/server/generated/prisma-client', { recursive: true }); }\"",
     "copy:entry": "node -e \"const { mkdirSync, writeFileSync } = require('node:fs'); mkdirSync('dist', { recursive: true }); writeFileSync('dist/server.js', \\\"import './server/server.js';\\\");\"",
-    "start": "node dist/server.js",
+    "start": "node server.js",
     "start:worker": "node dist/server/queues/worker.js",
     "postinstall": "prisma generate",
     "prisma:generate": "prisma generate",

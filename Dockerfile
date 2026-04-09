@@ -31,6 +31,7 @@ ENV PORT=3000
 COPY package*.json ./
 RUN npm ci --omit=dev --ignore-scripts
 
+COPY server.js ./server.js
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/prisma ./prisma
 

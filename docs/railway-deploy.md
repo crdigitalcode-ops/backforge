@@ -1,21 +1,19 @@
 # Railway Deploy
 
-BACKFORGE is ready for Railway GitHub auto-deploy with the repository `Dockerfile` plus `railway.json`.
+BACKFORGE is ready for Railway GitHub auto-deploy using the repository `Dockerfile` plus `railway.json`.
 
 ## What Railway Uses
 
 - Build: repository `Dockerfile`
 - Pre-deploy: `npm run prisma:migrate:deploy`
 - Start: `npm run start`
-- Healthcheck: `GET /readyz`
+- Healthcheck: `GET /health`
 
 The app already supports:
 
 - `process.env.PORT` for the HTTP listener
 - `DATABASE_URL` for Prisma/PostgreSQL
-- graceful startup when `REDIS_URL` is missing
-- structured API errors in the shape `{ "error": "message" }`
-- `GET /livez` and `GET /readyz`
+- `GET /health`
 
 ## Required Variables
 
@@ -49,7 +47,7 @@ If you do not provision Redis, BACKFORGE still boots and serves traffic. Cache, 
 
 - Prisma client is generated during `postinstall`.
 - The build produces the API in `dist/server`, a small entrypoint in `dist/server.js`, and the frontend in `dist/client`.
-- Railway runs `npm run prisma:migrate:deploy` before startup so schema migrations are applied automatically.
+- Railway builds with `DOCKERFILE`, then runs `npm run prisma:migrate:deploy` before startup so schema migrations are applied automatically.
 
 ## Local Smoke Test
 

@@ -1,0 +1,52 @@
+
+> react-example@0.0.0 dev
+> tsx src/server.ts
+
+[server] BACKFORGE running on http://127.0.0.1:3102
+[19:56:11.891] [32mINFO[39m (15544): [36mServer listening at http://127.0.0.1:3102[39m
+[19:56:11.891] [32mINFO[39m (15544): [36mServer listening at http://192.168.0.105:3102[39m
+[19:56:17.182] [32mINFO[39m (15544): [36mincoming request[39m
+    [35mreqId[39m: "req-1"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/",
+      "host": "127.0.0.1:3102",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 51830
+    }
+[19:56:17.206] [32mINFO[39m (15544): [36mrequest completed[39m
+    [35mreqId[39m: "req-1"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 24.20389999821782
+[19:56:17.471] [32mINFO[39m (15544): [36mincoming request[39m
+    [35mreqId[39m: "req-2"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/@vite/client",
+      "host": "127.0.0.1:3102",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 51830
+    }
+[19:56:17.495] [32mINFO[39m (15544): [36mrequest completed[39m
+    [35mreqId[39m: "req-2"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 24.157200001180172
+[19:56:17.632] [32mINFO[39m (15544): [36mincoming request[39m
+    [35mreqId[39m: "req-3"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/health",
+      "host": "127.0.0.1:3102",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 51830
+    }
+[19:56:17.690] [32mINFO[39m (15544): [36mrequest completed[39m
+    [35mreqId[39m: "req-3"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 57.25219999998808

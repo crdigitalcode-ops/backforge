@@ -1,0 +1,53 @@
+
+> react-example@0.0.0 dev
+> tsx src/server.ts
+
+[2m20:53:55[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
+[server] BACKFORGE running on http://127.0.0.1:3200
+[20:53:55.744] [32mINFO[39m (772): [36mServer listening at http://127.0.0.1:3200[39m
+[20:53:55.745] [32mINFO[39m (772): [36mServer listening at http://192.168.0.105:3200[39m
+[20:54:00.372] [32mINFO[39m (772): [36mincoming request[39m
+    [35mreqId[39m: "req-1"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/",
+      "host": "127.0.0.1:3200",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 49630
+    }
+[20:54:00.403] [32mINFO[39m (772): [36mrequest completed[39m
+    [35mreqId[39m: "req-1"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 30.093299999833107
+[20:54:00.899] [32mINFO[39m (772): [36mincoming request[39m
+    [35mreqId[39m: "req-2"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/@vite/client",
+      "host": "127.0.0.1:3200",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 49630
+    }
+[20:54:00.940] [32mINFO[39m (772): [36mrequest completed[39m
+    [35mreqId[39m: "req-2"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 40.88729999959469
+[20:54:01.235] [32mINFO[39m (772): [36mincoming request[39m
+    [35mreqId[39m: "req-3"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/health",
+      "host": "127.0.0.1:3200",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 49630
+    }
+[20:54:01.270] [32mINFO[39m (772): [36mrequest completed[39m
+    [35mreqId[39m: "req-3"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 34.88959999755025

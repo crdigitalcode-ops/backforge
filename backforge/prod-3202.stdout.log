@@ -1,0 +1,33 @@
+[server] BACKFORGE running on http://127.0.0.1:3202
+[21:03:53.902] [32mINFO[39m (17520): [36mServer listening at http://127.0.0.1:3202[39m
+[21:03:53.902] [32mINFO[39m (17520): [36mServer listening at http://192.168.0.105:3202[39m
+[21:03:58.665] [32mINFO[39m (17520): [36mincoming request[39m
+    [35mreqId[39m: "req-1"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/",
+      "host": "127.0.0.1:3202",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 52257
+    }
+[21:03:58.673] [32mINFO[39m (17520): [36mrequest completed[39m
+    [35mreqId[39m: "req-1"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.303400002419949
+[21:03:58.711] [32mINFO[39m (17520): [36mincoming request[39m
+    [35mreqId[39m: "req-2"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/health",
+      "host": "127.0.0.1:3202",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 52257
+    }
+[21:03:58.713] [32mINFO[39m (17520): [36mrequest completed[39m
+    [35mreqId[39m: "req-2"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 1.2236999981105328

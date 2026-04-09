@@ -1,0 +1,1702 @@
+
+> react-example@0.0.0 dev
+> tsx src/server.ts
+
+[server] BACKFORGE running on http://127.0.0.1:3000
+[08:01:46.818] [32mINFO[39m (13852): [36mServer listening at http://127.0.0.1:3000[39m
+[08:01:46.818] [32mINFO[39m (13852): [36mServer listening at http://192.168.0.105:3000[39m
+[08:02:29.103] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1"
+    [35mreq[39m: {
+      "method": "POST",
+      "url": "/auth/register",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 57853
+    }
+[08:02:29.368] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1"
+    [35mres[39m: {
+      "statusCode": 201
+    }
+    [35mresponseTime[39m: 264.4479999989271
+[08:02:29.403] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2"
+    [35mreq[39m: {
+      "method": "POST",
+      "url": "/auth/login",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 57853
+    }
+[08:02:29.627] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 224.25329999625683
+[08:02:29.639] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-3"
+    [35mreq[39m: {
+      "method": "POST",
+      "url": "/projects",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 57853
+    }
+[08:02:29.651] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-3"
+    [35mres[39m: {
+      "statusCode": 201
+    }
+    [35mresponseTime[39m: 12.351599998772144
+[08:02:29.654] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-4"
+    [35mreq[39m: {
+      "method": "POST",
+      "url": "/projects/574a292c-b26c-4e17-a841-1ec76319515a/keys",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 57853
+    }
+[08:02:29.661] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-4"
+    [35mres[39m: {
+      "statusCode": 201
+    }
+    [35mresponseTime[39m: 7.228399999439716
+[08:02:29.662] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-5"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/projects/574a292c-b26c-4e17-a841-1ec76319515a/keys",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 57853
+    }
+[08:02:29.666] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-5"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 3.7854999974370003
+[08:02:29.671] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-6"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 57853
+    }
+[08:02:29.691] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-6"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 12.770099997520447
+[08:02:29.987] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-7"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/projects/574a292c-b26c-4e17-a841-1ec76319515a/logs?limit=10",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 57853
+    }
+[08:02:29.991] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-7"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 3.8175999969244003
+[08:02:29.993] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-8"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/projects/574a292c-b26c-4e17-a841-1ec76319515a/billing",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 57853
+    }
+[08:02:29.996] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-8"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 2.559000000357628
+[08:03:01.066] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-9"
+    [35mreq[39m: {
+      "method": "POST",
+      "url": "/auth/register",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.284] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-9"
+    [35mres[39m: {
+      "statusCode": 201
+    }
+    [35mresponseTime[39m: 218.12999999523163
+[08:03:01.319] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-a"
+    [35mreq[39m: {
+      "method": "POST",
+      "url": "/auth/login",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.537] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-a"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 217.73400000482798
+[08:03:01.548] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-b"
+    [35mreq[39m: {
+      "method": "POST",
+      "url": "/projects",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.552] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-b"
+    [35mres[39m: {
+      "statusCode": 201
+    }
+    [35mresponseTime[39m: 3.931699998676777
+[08:03:01.554] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-c"
+    [35mreq[39m: {
+      "method": "POST",
+      "url": "/projects/9d3763f6-266c-4c53-9ca0-88fb1723c952/keys",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.558] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-c"
+    [35mres[39m: {
+      "statusCode": 201
+    }
+    [35mresponseTime[39m: 3.586199998855591
+[08:03:01.571] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-d"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.579] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-d"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.342299997806549
+[08:03:01.688] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-e"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.695] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-e"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.042300000786781
+[08:03:01.706] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-f"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.713] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-f"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.44200000166893
+[08:03:01.725] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-g"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.734] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-g"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.680099993944168
+[08:03:01.746] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-h"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.756] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-h"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 8.124799996614456
+[08:03:01.767] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-i"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.775] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-i"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.607999995350838
+[08:03:01.787] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-j"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.796] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-j"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.10700000077486
+[08:03:01.807] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-k"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.816] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-k"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.591600000858307
+[08:03:01.831] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-l"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.844] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-l"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.654100000858307
+[08:03:01.856] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-m"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.866] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-m"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 8.36829999834299
+[08:03:01.878] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-n"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.888] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-n"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.534699998795986
+[08:03:01.898] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-o"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.907] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-o"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.413999997079372
+[08:03:01.918] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-p"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.930] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-p"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.401200003921986
+[08:03:01.942] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-q"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.950] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-q"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.12049999833107
+[08:03:01.964] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-r"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.977] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-r"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 10.622800000011921
+[08:03:01.988] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-s"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:01.999] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-s"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.108200006186962
+[08:03:02.013] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-t"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.022] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-t"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.595600001513958
+[08:03:02.055] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-u"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.065] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-u"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.762000001966953
+[08:03:02.075] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-v"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.087] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-v"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 10.305400006473064
+[08:03:02.098] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-w"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.107] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-w"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.407799996435642
+[08:03:02.119] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-x"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.131] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-x"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.285299994051456
+[08:03:02.141] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-y"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.150] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-y"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.5204000025987625
+[08:03:02.160] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-z"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.168] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-z"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.484699994325638
+[08:03:02.183] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-10"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.190] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-10"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.5962999984622
+[08:03:02.201] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-11"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.210] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-11"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.790799997746944
+[08:03:02.223] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-12"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.231] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-12"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.911299996078014
+[08:03:02.243] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-13"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.251] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-13"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.796400003135204
+[08:03:02.266] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-14"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.274] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-14"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.956599995493889
+[08:03:02.285] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-15"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.299] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-15"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 11.402800001204014
+[08:03:02.311] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-16"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.319] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-16"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.503299996256828
+[08:03:02.330] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-17"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.342] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-17"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 10.678700000047684
+[08:03:02.354] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-18"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.365] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-18"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.59849999845028
+[08:03:02.378] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-19"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.387] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-19"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.977099999785423
+[08:03:02.398] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1a"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.406] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1a"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.256400004029274
+[08:03:02.419] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1b"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.429] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1b"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.631499998271465
+[08:03:02.440] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1c"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.448] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1c"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.101599998772144
+[08:03:02.461] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1d"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.470] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1d"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.330199994146824
+[08:03:02.481] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1e"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.489] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1e"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.433100000023842
+[08:03:02.499] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1f"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.513] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1f"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 11.511700004339218
+[08:03:02.523] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1g"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.531] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1g"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.940299995243549
+[08:03:02.542] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1h"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.553] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1h"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.557499997317791
+[08:03:02.563] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1i"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.571] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1i"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.874299995601177
+[08:03:02.582] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1j"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.595] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1j"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 11.117400005459785
+[08:03:02.606] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1k"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.614] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1k"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.560099996626377
+[08:03:02.626] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1l"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.641] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1l"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 10.19200000166893
+[08:03:02.653] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1m"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.660] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1m"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.839499995112419
+[08:03:02.672] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1n"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.681] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1n"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.180100001394749
+[08:03:02.691] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1o"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.701] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1o"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.806999996304512
+[08:03:02.715] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1p"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.724] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1p"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.248299993574619
+[08:03:02.735] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1q"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.742] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1q"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.971000000834465
+[08:03:02.757] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1r"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.766] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1r"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.806199997663498
+[08:03:02.776] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1s"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.786] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1s"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.951200000941753
+[08:03:02.799] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1t"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.807] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1t"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.535800002515316
+[08:03:02.817] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1u"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.826] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1u"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.468299999833107
+[08:03:02.836] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1v"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.847] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1v"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.70439999550581
+[08:03:02.858] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1w"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.866] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1w"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.3637000024318695
+[08:03:02.878] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1x"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.890] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1x"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.983000002801418
+[08:03:02.901] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1y"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.910] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1y"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.580699995160103
+[08:03:02.926] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-1z"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.936] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-1z"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.599799998104572
+[08:03:02.949] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-20"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.957] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-20"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.953899994492531
+[08:03:02.974] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-21"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:02.983] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-21"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.746399998664856
+[08:03:02.996] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-22"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.009] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-22"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.30520000308752
+[08:03:03.025] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-23"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.032] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-23"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.728200003504753
+[08:03:03.047] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-24"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.057] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-24"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.804099999368191
+[08:03:03.070] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-25"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.086] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-25"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 8.758900001645088
+[08:03:03.099] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-26"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.108] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-26"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.960299998521805
+[08:03:03.124] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-27"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.133] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-27"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.572200000286102
+[08:03:03.146] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-28"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.154] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-28"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.778399996459484
+[08:03:03.168] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-29"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.179] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-29"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.493999995291233
+[08:03:03.191] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2a"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.199] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2a"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.146600000560284
+[08:03:03.213] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2b"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.225] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2b"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.079100005328655
+[08:03:03.237] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2c"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.244] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2c"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.927199997007847
+[08:03:03.261] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2d"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.270] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2d"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.4249000027775764
+[08:03:03.281] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2e"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.290] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2e"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.202100001275539
+[08:03:03.307] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2f"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.319] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2f"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.30070000141859
+[08:03:03.335] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2g"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.348] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2g"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.440400004386902
+[08:03:03.360] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2h"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.368] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2h"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.191699996590614
+[08:03:03.382] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2i"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.392] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2i"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 8.000799998641014
+[08:03:03.403] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2j"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.416] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2j"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.8665000051259995
+[08:03:03.429] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2k"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.437] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2k"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.8325000032782555
+[08:03:03.450] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2l"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.461] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2l"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 10.109400004148483
+[08:03:03.475] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2m"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.483] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2m"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.622000001370907
+[08:03:03.496] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2n"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.505] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2n"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.766100004315376
+[08:03:03.520] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2o"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.528] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2o"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.254299998283386
+[08:03:03.540] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2p"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.552] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2p"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 10.046899996697903
+[08:03:03.565] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2q"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.573] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2q"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.141199998557568
+[08:03:03.588] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2r"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.599] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2r"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 8.529600001871586
+[08:03:03.611] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2s"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.618] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2s"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.714500002563
+[08:03:03.634] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2t"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.644] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2t"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 8.522699996829033
+[08:03:03.658] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2u"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.673] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2u"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 11.848600000143051
+[08:03:03.686] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2v"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.694] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2v"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.3669000044465065
+[08:03:03.707] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2w"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.715] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2w"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.0778999999165535
+[08:03:03.729] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2x"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.737] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2x"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.325300000607967
+[08:03:03.752] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2y"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.762] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2y"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.737999998033047
+[08:03:03.775] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-2z"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.782] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-2z"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 5.825800001621246
+[08:03:03.798] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-30"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.807] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-30"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.417300000786781
+[08:03:03.820] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-31"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.831] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-31"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 8.293800003826618
+[08:03:03.864] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-32"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.873] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-32"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 6.777300000190735
+[08:03:03.888] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-33"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.900] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-33"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 9.329499997198582
+[08:03:03.912] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-34"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.923] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-34"
+    [35mres[39m: {
+      "statusCode": 200
+    }
+    [35mresponseTime[39m: 7.941300004720688
+[08:03:03.938] [32mINFO[39m (13852): [36mincoming request[39m
+    [35mreqId[39m: "req-35"
+    [35mreq[39m: {
+      "method": "GET",
+      "url": "/public/data",
+      "host": "127.0.0.1:3000",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 54891
+    }
+[08:03:03.946] [32mINFO[39m (13852): [36mrequest completed[39m
+    [35mreqId[39m: "req-35"
+    [35mres[39m: {
+      "statusCode": 429
+    }
+    [35mresponseTime[39m: 6.718500003218651

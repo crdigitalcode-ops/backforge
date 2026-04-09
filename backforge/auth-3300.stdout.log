@@ -1,0 +1,57 @@
+
+> react-example@0.0.0 dev
+> tsx src/server.ts
+
+[server] BACKFORGE running on http://127.0.0.1:3300
+[21:17:12.335] [32mINFO[39m (6132): [36mServer listening at http://127.0.0.1:3300[39m
+[21:17:12.336] [32mINFO[39m (6132): [36mServer listening at http://192.168.0.105:3300[39m
+[21:17:17.639] [32mINFO[39m (6132): [36mincoming request[39m
+    [35mreqId[39m: "req-1"
+    [35mreq[39m: {
+      "method": "POST",
+      "url": "/auth/register",
+      "host": "127.0.0.1:3300",
+      "remoteAddress": "127.0.0.1",
+      "remotePort": 63071
+    }
+[21:17:17.940] [31mERROR[39m (6132): [36m
+Invalid `prisma.user.create()` invocation in
+C:\Users\crist\OneDrive\Documentos\projetos\backforge\src\modules\auth\auth.service.ts:14:24
+
+  11 async register(data: RegisterInput) {
+  12   const hashedPassword = await bcrypt.hash(data.password, 12);
+  13   
+→ 14   return prisma.user.create(
+Authentication failed against database server, the provided database credentials for `postgres` are not valid.
+
+Please make sure to provide valid database credentials for the database server at the configured address.[39m
+    [35mreqId[39m: "req-1"
+    err: {
+      "type": "PrismaClientInitializationError",
+      "message": "\nInvalid `prisma.user.create()` invocation in\nC:\\Users\\crist\\OneDrive\\Documentos\\projetos\\backforge\\src\\modules\\auth\\auth.service.ts:14:24\n\n  11 async register(data: RegisterInput) {\n  12   const hashedPassword = await bcrypt.hash(data.password, 12);\n  13   \n→ 14   return prisma.user.create(\nAuthentication failed against database server, the provided database credentials for `postgres` are not valid.\n\nPlease make sure to provide valid database credentials for the database server at the configured address.",
+      "stack":
+          PrismaClientInitializationError: 
+          Invalid `prisma.user.create()` invocation in
+          C:\Users\crist\OneDrive\Documentos\projetos\backforge\src\modules\auth\auth.service.ts:14:24
+          
+            11 async register(data: RegisterInput) {
+            12   const hashedPassword = await bcrypt.hash(data.password, 12);
+            13   
+          → 14   return prisma.user.create(
+          Authentication failed against database server, the provided database credentials for `postgres` are not valid.
+          
+          Please make sure to provide valid database credentials for the database server at the configured address.
+              at ei.handleRequestError (C:\Users\crist\OneDrive\Documentos\projetos\backforge\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+              at ei.handleAndLogRequestError (C:\Users\crist\OneDrive\Documentos\projetos\backforge\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+              at ei.request (C:\Users\crist\OneDrive\Documentos\projetos\backforge\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+              at async a (C:\Users\crist\OneDrive\Documentos\projetos\backforge\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+              at async Object.register (C:\Users\crist\OneDrive\Documentos\projetos\backforge\src\modules\auth\auth.controller.ts:12:20)
+      "clientVersion": "6.19.2",
+      "name": "PrismaClientInitializationError"
+    }
+[21:17:17.943] [32mINFO[39m (6132): [36mrequest completed[39m
+    [35mreqId[39m: "req-1"
+    [35mres[39m: {
+      "statusCode": 503
+    }
+    [35mresponseTime[39m: 302.92310000211

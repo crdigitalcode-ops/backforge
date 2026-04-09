@@ -47,7 +47,9 @@ If you do not provision Redis, BACKFORGE still boots and serves traffic. Cache, 
 
 - Prisma client is generated during `postinstall`.
 - The build produces the API in `dist/server`, a small entrypoint in `dist/server.js`, and the frontend in `dist/client`.
-- Railway builds with `DOCKERFILE`, then runs `npm run prisma:migrate:deploy` before startup so schema migrations are applied automatically.
+- Railway builds with `DOCKERFILE`.
+- Railway runs `npm run prisma:migrate:deploy` as a pre-deploy step, separate from application startup.
+- Railway starts the app with `npm run start`, so the healthcheck only depends on the web server becoming ready.
 
 ## Local Smoke Test
 
